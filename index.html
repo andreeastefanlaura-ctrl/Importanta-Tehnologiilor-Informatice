@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Importanța Tehnologiilor Informatice</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, #e6e9f0, #eef1f5);
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            animation: fadeDown 1s ease;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px;
+            background: rgba(0,0,0,0.7);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            backdrop-filter: blur(10px);
+            animation: fadeUp 1s ease;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #2575fc;
+        }
+        section {
+            background: white;
+            margin: 40px auto;
+            max-width: 1000px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            animation: fadeIn 1s ease;
+        }
+        h2 {
+            color: #2575fc;
+            font-size: 28px;
+        }
+        .img-box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .img-box img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Importanța Tehnologiilor Informatice în Societatea Modernă</h1>
+    </header>
+
+    <nav>
+        <a href="#pagina1">Rolul TIC</a>
+        <a href="#pagina2">Impactul în Viața Noastră</a>
+        <a href="#pagina3">De Ce Sunt Necesare În Viitor?</a>
+    </nav>
+
+    <section id="pagina1">
+        <h2>1. Rolul Tehnologiilor Informatice</h2>
+        <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Tehnologie modernă" />
+        </div>
+        <p>Tehnologiile informatice sunt esențiale în dezvoltarea societății. Ele conectează oameni din întreaga lume, optimizează procese industriale și permit funcționarea sistemelor critice precum sănătatea, educația, transporturile și comunicațiile.</p>
+    </section>
+
+    <section id="pagina2">
+        <h2>2. Impactul Asupra Vieții de Zi cu Zi</h2>
+        <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Impactul tehnologiei" />
+        </div>
+        <p>Tehnologia ne ajută să lucrăm mai eficient, să rămânem informați și să comunicăm rapid. De la smartphone-uri la inteligență artificială, tehnologia transformă modul în care trăim, învățăm și lucrăm.</p>
+    </section>
+
+    <section id="pagina3">
+        <h2>3. De Ce Avem Nevoie de Tehnologie În Viitor?</h2>
+        <div class="img-box">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Viitorul tehnologic" />
+        </div>
+        <p>
+            Viitorul va fi puternic digitalizat: roboți inteligenți, realitate virtuală, rețele 6G, sisteme autonome și inteligență artificială avansată. Pentru a ne adapta, avem nevoie de competențe digitale, înțelegerea tehnologiei și abilitatea de a folosi unelte moderne.
+        </p>
+    </section>
+</body>
+</html>
